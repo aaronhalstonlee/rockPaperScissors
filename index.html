@@ -3,8 +3,35 @@
     <head>
         <title>Rock Paper Scissors</title>
         <meta charset="utf-8"/>
+        <link rel='stylesheet' type='text/css' href='style.css'> 
     </head>
     <body>
+        <div class="container">
+            <div class="intro">
+                <img src="./donutFireBanner.png" />
+                <div id="ready">
+                    <h1>Ready?</h1>
+                </div>
+            </div>
+            <div id="score" class="hidden">
+                <h2>Score:</h2>
+                <p><span id="playerScore">0</span> to <span id="compScore">0</span></p>
+            </div>
+            <div class="hidden gameContainer">
+                <img src="./gamePad.png" usemap="#map" />
+
+                <map name="map">
+                    <area shape="circle" coords="298,69,64" alt="rock" href="#/" />
+                    <area shape="circle" coords="499,151,62" alt="fire" href="#/" />
+                    <area shape="circle" coords="529,352,63" alt="donut" href="#/" />
+                    <area shape="circle" coords="413,521,63" alt="paper" href="#/" />
+                    <area shape="circle" coords="195,520,63" alt="unicorn" href="#/" />
+                    <area shape="circle" coords="71,358,63" alt="surfer" href="#/" />
+                    <area shape="circle" coords="106,149,64" alt="scissors" href="#/" />
+                </map>
+            </div>
+        </div>
+        
         <script src="script.js"></script>
     </body>
 </html>

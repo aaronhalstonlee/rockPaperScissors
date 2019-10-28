@@ -1,0 +1,36 @@
+#score {
+    position: absolute;
+}
+
+#ready {
+    text-align: center;
+}
+
+.container {
+    display: block;
+}
+.gameContainer {
+    margin: auto;
+    width: 45%;
+    height: auto;
+}
+
+.gameContainer img {
+    width: 100%;
+    height: auto;
+}
+
+.intro {
+    margin: auto;
+    width: 75%;
+    height: auto;
+}
+
+.intro img{
+    width: 100%;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
